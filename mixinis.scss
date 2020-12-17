@@ -1,0 +1,130 @@
+
+// font-family: 'Amatic SC', cursive;
+// font-family: 'Roboto', sans-serif;
+//Para quitar bordes
+@mixin zero-clean{
+margin: 0 0 0 0; // arriba derecha abajo izquierda
+padding:0 0 0 0;
+border-radius: 0 0 0 0;
+border:0;
+outline:0; // borde de color en formilarios     
+}
+    
+    
+@mixin clean-links{
+color: inherit;
+text-decoration: none;
+    
+    a:hover, a:focus, a:visited{ // hover-> "mouse por ensima" focus-> "" visitado-> "página visitada"
+    color: inherit;
+    text-decoration: none;
+    outline:0;
+    box-shadow: 0;
+    }
+}
+    
+@mixin clean-text{
+    -webkit-margin-before: 0!important;
+    -webkit-margin-after: 0!important;
+    -webkit-margin-start: 0!important;
+    -webkit-margin-end: 0!important;
+    -webkit-padding-before: 0!important;
+    -webkit-padding-after: 0!important;
+    -webkit-padding-start: 0!important;
+    -webkit-padding-end: 0!important;
+}
+    
+    
+@mixin clean-ul-li{
+list-style: none;
+list-style-image: none;
+list-indent: 0;
+list-style-type: none;
+list-style-position: outside;
+padding-inline-start: 0px;
+margin-block-start: 0!important;
+margin-block-end: 0!important;
+}
+    
+//POSICIONES
+@mixin flex-col-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    }
+    
+@mixin flex-row-center{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+    
+@mixin flex-row-end{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-content: center;
+}    
+
+//box-registro 14 medim
+@mixin texto_sesion{
+    font: {
+    size: 14px;
+    weight: 500;
+    family: 'Roboto', sans-serif;
+    }
+}
+
+//texto-nav 24 bold
+@mixin texto_nav{
+    font: {
+    size: 24px;
+    weight: 700;
+    family:'Amatic SC', cursive;
+    }
+}
+
+//texto-nav 24 bold
+@mixin texto_nav-dos{
+    font: {
+    color: $color-7;
+    size: 24px;
+    weight: 700;
+    family:'Amatic SC', cursive;
+    }
+}
+
+
+//texto-nav 24 bold
+@mixin box_nav{
+height: auto;
+width: 100px;
+border: 3px solid;
+@media(min-width: 676px) and (max-width:1024px)   //Ipad
+{width: 70px;}
+}
+
+//texto-producto
+@mixin texto_producto{
+    font: {
+    color: $color-2;
+    size: 18px;
+    weight: 500;
+    family:'Roboto', sans-serif;
+    }
+}
+
+//texto-precio roboto mediun 18
+@mixin texto_precio{
+    align-content: center;
+    font: {
+    color: $color-2;
+    size: 18px;
+    weight: 500;
+    family:'Roboto', sans-serif;
+    }
+}
