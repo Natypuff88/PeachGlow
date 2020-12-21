@@ -9,67 +9,46 @@
 	],
 "creatorBuild": "32186",
 "files": {
-	"/Assets/FAQ/compra.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/Assets/FAQ/compra.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/Assets/FAQ/deliveri.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/Assets/FAQ/deliveri.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/Assets/FAQ/heart.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/Assets/FAQ/heart.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/Assets/FAQ/shine.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/Assets/FAQ/shine.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/Assets/INICIO/10069.jpg": {
-		"ft": 16384,
-		"iS": 3139163,
-		"jF": 0,
+	"/Assets/CONTACTO/contacto-peach.png": {
+		"ft": 32768,
+		"iS": 172986,
 		"oA": 0,
-		"oAP": "/Assets/INICIO/10069.jpg",
+		"oAP": "/Assets/CONTACTO/contacto-peach.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/Assets/INICIO/Banner.jpg": {
-		"ft": 16384,
-		"iS": 198636,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Assets/INICIO/Banner.jpg",
+	"/Assets/FAQ/faq-compra.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Assets/FAQ/faq-compra.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Assets/FAQ/faq-heart 1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Assets/FAQ/faq-heart 1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Assets/FAQ/faq-shine 1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Assets/FAQ/faq-shine 1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/Assets/INICIO/donacion 1.svg": {
 		"ft": 2097152,
@@ -90,6 +69,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/Assets/INICIO/Fondo nav.png": {
+		"ft": 32768,
+		"iS": 26392,
+		"oA": 0,
+		"oAP": "/Assets/INICIO/Fondo nav.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/Assets/INICIO/instagram-icon.svg": {
@@ -131,6 +121,39 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/Assets/PAPELERIA/pap-slider1.jpg": {
+		"ft": 16384,
+		"iS": 445290,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assets/PAPELERIA/pap-slider1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assets/PAPELERIA/pap-slider2.jpg": {
+		"ft": 16384,
+		"iS": 250072,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assets/PAPELERIA/pap-slider2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/Assets/PAPELERIA/pap-slider3.jpg": {
+		"ft": 16384,
+		"iS": 242605,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assets/PAPELERIA/pap-slider3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/Assets/PRODUCTOS/carrito-hover.svg": {
 		"ft": 2097152,
@@ -260,6 +283,38 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/CONTACTO.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/CONTACTO.html",
+		"oF": 0
+		},
+	"/cuadernos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/cuadernos.html",
+		"oF": 0
+		},
+	"/estuches.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/estuches.html",
+		"oF": 0
+		},
+	"/FAQ.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/FAQ.html",
+		"oF": 0
+		},
 	"/grid.css": {
 		"aP": 1,
 		"bl": 0,
@@ -276,6 +331,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
+		"oF": 0
+		},
+	"/lapices.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lapices.html",
 		"oF": 0
 		},
 	"/mixinis.css": {
@@ -300,6 +363,14 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
+		},
+	"/papeleria.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/papeleria.html",
+		"oF": 0
 		},
 	"/style.css": {
 		"aP": 1,

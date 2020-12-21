@@ -70,7 +70,7 @@ justify-content: flex-end;
 align-content: center;
 }    
 
-//box-registro 14 medim
+//box-registro ROBOTO 14 medim
 @mixin texto_sesion{
     font: {
     size: 14px;
@@ -126,5 +126,41 @@ border: 3px solid;
     size: 18px;
     weight: 500;
     family:'Roboto', sans-serif;
+    }
+}
+
+//texto-nav AMATIC 48 bold TEXTO TITULOS
+@mixin texto_titulos{
+    font: {
+    size: 48px;
+    weight: 700;
+    family:'Amatic SC', cursive;
+    }
+}
+
+// 14 regular TEXTO ORDINARIO
+@mixin texto_ordinario{
+    font: {
+    size: 14px;
+    weight: 400;
+    family: 'Roboto', sans-serif;
+    }
+}
+
+// FAQ 24 Roboto regular TEXTO PREGUNTA
+@mixin texto_pregunta{
+    font: {
+    size: 24px;
+    weight: 400;
+    family: 'Roboto', sans-serif;
+    }
+}
+
+// FAQ 14 Roboto regular TEXTO RESPUESTA
+@mixin texto_respuesta{
+    font: {
+    size: 14px;
+    weight: 400;
+    family: 'Roboto', sans-serif;
     }
 }
